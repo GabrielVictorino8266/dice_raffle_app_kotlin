@@ -21,12 +21,13 @@ O Intent pode possuir um filtro dentro do manifest do projeto/arquivo. Este serv
 ### Fluxograma Exemplo
 ```mermaid
 flowchart LR
-    I["📨 Intent"] -->|startActivity()| A["📱 Activity (Tela)"]
-    I -->|startService()/bindService()| S["⚙️ Service (Segundo Plano)"]
-    I -->|sendBroadcast()| B["📡 Broadcast (Transmissão)"]
+flowchart LR
+    I["Intent"] -->|startActivity()| A["Activity (Tela)"]
+    I -->|startService()/bindService()| S["Service (Segundo Plano)"]
+    I -->|sendBroadcast()| B["Broadcast (Transmissão)"]
 
 ```
 
-## Link Úteis:
+## Links Úteis:
 Documentação
--- [Documentação Android](https://developer.android.com/guide/components/intents-filters?hl=pt-br)
+- [Documentação Android](https://developer.android.com/guide/components/intents-filters?hl=pt-br)
