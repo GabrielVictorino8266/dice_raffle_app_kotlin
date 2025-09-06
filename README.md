@@ -19,13 +19,7 @@ O componente Intent ainda tem mais tipos, tais como:
 O Intent pode possuir um filtro dentro do manifest do projeto/arquivo. Este serve para especificar o tipo esperado para ser recebido. Este é muito importante no intent implícito.
 
 ### Fluxograma Exemplo
-```mermaid
-flowchart LR
-    I["Intent"] -->|startActivity()| A["Activity (Tela)"]
-    I -->|startService()/bindService()| S["Service (Segundo Plano)"]
-    I -->|sendBroadcast()| B["Broadcast (Transmissão)"]
-
-```
+![alt text](docs/intent_fluxo_v2.png)
 
 ## Links Úteis:
 Documentação
