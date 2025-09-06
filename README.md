@@ -21,7 +21,6 @@ O Intent pode possuir um filtro dentro do manifest do projeto/arquivo. Este serv
 ### Fluxograma Exemplo
 ```mermaid
 flowchart LR
-flowchart LR
     I["Intent"] -->|startActivity()| A["Activity (Tela)"]
     I -->|startService()/bindService()| S["Service (Segundo Plano)"]
     I -->|sendBroadcast()| B["Broadcast (Transmissão)"]
